@@ -10,10 +10,10 @@ puts 'Establishing connection to database ...'
 ActiveRecord::Base.establish_connection(
   adapter: 'postgresql',
   database: 'ar_exercises',
-  username: 'development',
-  password: 'development',
+  username: 'johnarvi',
+  password: 'johnarvi',
   host: 'localhost',
-  port: 5432,
+  port: 5433,
   pool: 5,
   encoding: 'unicode',
   min_messages: 'error'
