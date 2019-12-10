@@ -11,11 +11,6 @@ Store.create({
 :womens_apparel => true
 })
 
-# puts s1.name
-# puts s1.annual_revenue
-# puts s1.mens_apparel
-# puts s1.womens_apparel
-
 Store.create({
 :name => "Richmond",
 :annual_revenue => 1260000,
